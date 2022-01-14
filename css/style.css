@@ -1,0 +1,1572 @@
+body {
+  background-color: #ffffff;
+  font-family: inter;
+}
+
+/* Bagian Navbar ===================================================================== */
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+}
+
+.navbar-brand {
+  position: absolute;
+  width: 251px;
+  height: 55px;
+  left: 8.3%;
+  top: 16px;
+}
+
+.nama-icon {
+  position: relative;
+  width: 180px;
+  height: 32px;
+  left: 50px;
+  /* top: calc(50% - 32px / 2 - 2566px); */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: -10px;
+  /* identical to box height, or 160% */
+  color: #53c351;
+}
+.detail-icon {
+  position: relative;
+  width: 182px;
+  height: 32px;
+  /* left: calc(50% - 182px / 2 - 457px);
+  top: calc(50% - 32px / 2 - 2543px); */
+  top: -7px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+
+  /* identical to box height, or 200% */
+
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.layanan-warga {
+  width: 152px;
+  height: 48px;
+  background: #53c351;
+  border-radius: 8px;
+  border: 0;
+  color: #ffffff;
+}
+
+/* Bagian Header =================================================================== */
+
+#header {
+  background-color: #254330;
+  height: 740px;
+  border-radius: 0px 0px 0px 80px;
+}
+
+.judul-header {
+  position: absolute;
+  width: 768px;
+  height: 176px;
+  left: 104px;
+  margin-top: 175px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.judul2-header {
+  position: absolute;
+  width: 608px;
+  height: 32px;
+  left: 104px;
+  top: 384px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+
+.item1 {
+  position: absolute;
+  width: 183.47px;
+  height: 179.11px;
+  left: 104px;
+  top: 434px;
+  background: #ffffff;
+  border-radius: 29px;
+}
+
+.img-item1 {
+  position: absolute;
+  width: 81.66px;
+  height: 79.72px;
+  left: 154.9px;
+  top: 451.6px;
+}
+
+.teks-item1 {
+  position: absolute;
+  width: 163.32px;
+  height: 36.24px;
+  left: 114.61px;
+  top: 550.99px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #53c351;
+}
+
+.item2 {
+  position: absolute;
+  width: 183.47px;
+  height: 179.11px;
+  left: 327.77px;
+  top: 434px;
+  background: #ffffff;
+  border-radius: 29px;
+}
+
+.img-item2 {
+  position: absolute;
+  width: 81.66px;
+  height: 79.72px;
+  left: 378.67px;
+  top: 451.6px;
+}
+
+.teks-item2 {
+  position: absolute;
+  width: 163.32px;
+  height: 36.24px;
+  left: 338.37px;
+  top: 550.99px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #53c351;
+}
+
+.item3 {
+  position: absolute;
+  width: 183.47px;
+  height: 179.11px;
+  left: 551.53px;
+  top: 434px;
+  background: #ffffff;
+  border-radius: 29px;
+}
+
+.img-item3 {
+  position: absolute;
+  width: 81.66px;
+  height: 79.72px;
+  left: 602.44px;
+  top: 451.6px;
+}
+
+.teks-item3 {
+  position: absolute;
+  width: 163.32px;
+  height: 36.24px;
+  left: 562.14px;
+  top: 550.99px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #53c351;
+}
+
+.icon-besar {
+  position: absolute;
+  width: 415px;
+  height: 415px;
+  left: 60%;
+  top: 175px;
+  border-radius: 100%;
+  background: #ebebeb;
+}
+
+.tombol-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border: 0;
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  left: 104px;
+  top: 635px;
+  color: white;
+  background: #53c351;
+  border-radius: 8px;
+}
+
+/* Profil Kepala Desa ============================================= */
+#profil-kades {
+  position: absolute;
+  width: 100%;
+  height: 626px;
+  left: 0px;
+  top: 739px;
+
+  background: #ffffff;
+}
+
+.teks1-profil-kades {
+  position: absolute;
+  width: 477px;
+  height: 35px;
+  left: 104px;
+  top: 144px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.teks2-profil-kades {
+  position: absolute;
+  width: 210px;
+  height: 19px;
+  left: 104px;
+  top: 179px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.teks3-profil-kades {
+  position: absolute;
+  width: 774px;
+  height: 125px;
+  left: 104px;
+  top: 212px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.teks4-profil-kades {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 104px;
+  top: 486px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #05ff00;
+}
+
+.tombol-profil-kades {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 258px;
+  height: 28px;
+  left: 104px;
+  top: 530px;
+  background: #53c351;
+  border-radius: 8px;
+  border: 0;
+}
+
+.teks-tombol-profil-kades {
+  position: static;
+  width: 234px;
+  height: 24px;
+  left: 12px;
+  top: 2px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+/* <!-- Detail Area ========================================================== --> */
+
+#detail-area {
+  position: absolute;
+  width: 100%;
+  height: 197px;
+  left: 0px;
+  top: 1365px;
+  background: #53c351;
+}
+
+.img-detail-area {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 116px;
+  top: 39px;
+}
+
+.icon-teks-detail-area {
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  left: 122px;
+  top: 117px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.item1-detail-area {
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  left: 406px;
+  top: 65px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.ket-item1-detail-area {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  left: 362px;
+  top: 101px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+.item2-detail-area {
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: 739px;
+  top: 65px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.ket-item2-detail-area {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  left: 686px;
+  top: 101px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+.item3-detail-area {
+  position: absolute;
+  width: 61px;
+  height: 24px;
+  left: 1086px;
+  top: 65px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.ket-item3-detail-area {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  left: 1010px;
+  top: 101px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+/* Detail Populasi ========================================================== */
+
+#detail-populasi {
+  position: absolute;
+  width: 100%;
+  height: 253px;
+  left: 0px;
+  top: 1562px;
+  background: #254330;
+}
+
+.img-detail-populasi {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 116px;
+  top: 39px;
+}
+
+.icon-teks-detail-populasi {
+  position: absolute;
+  width: 66px;
+  height: 24px;
+  left: 95px;
+  top: 117px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.item1-detail-populasi {
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  left: 416px;
+  top: 65px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.ket-item1-detail-populasi {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  left: 362px;
+  top: 101px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+.item2-detail-populasi {
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: 749px;
+  top: 65px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.ket-item2-detail-populasi {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  left: 686px;
+  top: 101px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+.item3-detail-populasi {
+  position: absolute;
+  width: 61px;
+  height: 24px;
+  left: 1086px;
+  top: 65px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height, or 80% */
+
+  color: #ffffff;
+}
+
+.ket-item3-detail-populasi {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  left: 1010px;
+  top: 101px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  /* identical to box height, or 120% */
+
+  color: #ffffff;
+}
+
+.tombol-detail-populasi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 267px;
+  height: 38px;
+  left: 587px;
+  top: 186px;
+  background: #53c351;
+  border-radius: 17px;
+  border: 0;
+}
+
+.teks-tombol-detail-populasi {
+  position: static;
+  width: 221px;
+  height: 24px;
+  left: 23px;
+  top: 7px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+/* kabar Desa ============================================= */
+#kabar-desa {
+  position: absolute;
+  width: 100%;
+  height: 757px;
+  left: 0px;
+  top: 1815px;
+  background: #ffffff;
+}
+
+.teks-kabar-desa {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  /* left: 616px; */
+  top: 56px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.item1-kabar-desa {
+  position: absolute;
+  width: 267px;
+  height: 440px;
+  left: 198px;
+  top: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder-item1-kabar-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+}
+
+.title-item1-kabar-desa {
+  position: absolute;
+  width: 188px;
+  height: 48px;
+  left: 211px;
+  top: 364px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #000000;
+}
+
+.date-item1-kabar-desa {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+  left: 210px;
+  top: 412px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+.narasi-item1-kabar-desa {
+  position: absolute;
+  width: 240px;
+  height: 114px;
+  left: 210px;
+  top: 453px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 158% */
+
+  color: #000000;
+}
+
+.selengkapnya-item1-kabar-desa {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 356px;
+  top: 583px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #05ff00;
+}
+
+.item2-kabar-desa {
+  position: absolute;
+  width: 267px;
+  height: 440px;
+  left: 586px;
+  top: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder-item2-kabar-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+}
+
+.title-item2-kabar-desa {
+  position: absolute;
+  width: 188px;
+  height: 48px;
+  left: 600px;
+  top: 364px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #000000;
+}
+
+.date-item2-kabar-desa {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+  left: 600px;
+  top: 412px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+.narasi-item2-kabar-desa {
+  position: absolute;
+  width: 240px;
+  height: 114px;
+  left: 600px;
+  top: 453px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 158% */
+
+  color: #000000;
+}
+
+.selengkapnya-item2-kabar-desa {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 745px;
+  top: 583px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #05ff00;
+}
+
+.item3-kabar-desa {
+  position: absolute;
+  width: 267px;
+  height: 440px;
+  left: 975px;
+  top: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder-item3-kabar-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+}
+
+.title-item3-kabar-desa {
+  position: absolute;
+  width: 188px;
+  height: 48px;
+  left: 989px;
+  top: 364px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #000000;
+}
+
+.date-item3-kabar-desa {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+  left: 989px;
+  top: 412px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+.narasi-item3-kabar-desa {
+  position: absolute;
+  width: 240px;
+  height: 114px;
+  left: 989px;
+  top: 453px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 158% */
+
+  color: #000000;
+}
+
+.selengkapnya-item3-kabar-desa {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 1134px;
+  top: 583px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #05ff00;
+}
+
+.tombol-kabar-desa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 267px;
+  height: 38px;
+  left: 587px;
+  top: 689px;
+  background: #53c351;
+  border-radius: 17px;
+  border: 0;
+}
+
+.next-left-kabar-desa {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 103px;
+  top: 364px;
+}
+
+.next-right-kabar-desa {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 1283px;
+  top: 364px;
+
+  transform: rotate(180deg);
+}
+
+/* Beli Desa ============================================= */
+#beli-desa {
+  position: absolute;
+  width: 1440px;
+  height: 757px;
+  left: 0px;
+  top: 2572px;
+
+  background: #9af298;
+}
+
+.teks-beli-desa {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  /* left: 616px; */
+  top: 56px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.item1-beli-desa {
+  position: absolute;
+  width: 267px;
+  height: 440px;
+  left: 198px;
+  top: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder-item1-beli-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+}
+
+.title-item1-beli-desa {
+  position: absolute;
+  width: 188px;
+  height: 48px;
+  left: 211px;
+  top: 364px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #000000;
+}
+
+.date-item1-beli-desa {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+  left: 210px;
+  top: 412px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+.narasi-item1-beli-desa {
+  position: absolute;
+  width: 240px;
+  height: 114px;
+  left: 210px;
+  top: 453px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 158% */
+
+  color: #000000;
+}
+
+.selengkapnya-item1-beli-desa {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 356px;
+  top: 583px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #05ff00;
+}
+
+.item2-beli-desa {
+  position: absolute;
+  width: 267px;
+  height: 440px;
+  left: 586px;
+  top: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder-item2-beli-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+}
+
+.title-item2-beli-desa {
+  position: absolute;
+  width: 188px;
+  height: 48px;
+  left: 600px;
+  top: 364px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #000000;
+}
+
+.date-item2-beli-desa {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+  left: 600px;
+  top: 412px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+.narasi-item2-beli-desa {
+  position: absolute;
+  width: 240px;
+  height: 114px;
+  left: 600px;
+  top: 453px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 158% */
+
+  color: #000000;
+}
+
+.selengkapnya-item2-beli-desa {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 745px;
+  top: 583px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #05ff00;
+}
+
+.item3-beli-desa {
+  position: absolute;
+  width: 267px;
+  height: 440px;
+  left: 975px;
+  top: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.placeholder-item3-beli-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+}
+
+.title-item3-beli-desa {
+  position: absolute;
+  width: 188px;
+  height: 48px;
+  left: 989px;
+  top: 364px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  color: #000000;
+}
+
+.date-item3-beli-desa {
+  position: absolute;
+  width: 240px;
+  height: 24px;
+  left: 989px;
+  top: 412px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+
+.narasi-item3-beli-desa {
+  position: absolute;
+  width: 240px;
+  height: 114px;
+  left: 989px;
+  top: 453px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  /* or 158% */
+
+  color: #000000;
+}
+
+.selengkapnya-item3-beli-desa {
+  position: absolute;
+  width: 108px;
+  height: 19px;
+  left: 1134px;
+  top: 583px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #05ff00;
+}
+
+.tombol-beli-desa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 267px;
+  height: 38px;
+  left: 587px;
+  top: 689px;
+  background: #53c351;
+  border-radius: 17px;
+  border: 0;
+}
+
+.next-left-beli-desa {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 103px;
+  top: 364px;
+}
+
+.next-right-beli-desa {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 1283px;
+  top: 364px;
+
+  transform: rotate(180deg);
+}
+
+/* wisata Desa ============================================= */
+#wisata-desa {
+  position: absolute;
+  width: 1440px;
+  height: 546px;
+  left: 0px;
+  top: 3329px;
+
+  background: #ffffff;
+}
+
+.teks-wisata-desa {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  /* left: 616px; */
+  top: 56px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.item1-wisata-desa {
+  position: absolute;
+  width: 267px;
+  height: 320px;
+  left: 387px;
+  top: 155px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+}
+
+.placeholder-item1-wisata-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.title-item1-wisata-desa {
+  position: absolute;
+  width: 241px;
+  height: 48px;
+  left: 398px;
+  top: 352px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.date-item1-wisata-desa {
+  position: absolute;
+  width: 240px;
+  height: 48px;
+  left: 399px;
+  top: 408px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.item2-wisata-desa {
+  position: absolute;
+  width: 267px;
+  height: 320px;
+  left: 774px;
+  top: 155px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+}
+
+.placeholder-item2-wisata-desa {
+  position: absolute;
+  width: 267px;
+  height: 183px;
+  left: 0;
+  top: 0;
+
+  background: #c4c4c4;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.title-item2-wisata-desa {
+  position: absolute;
+  width: 241px;
+  height: 48px;
+  left: 786px;
+  top: 352px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.date-item2-wisata-desa {
+  position: absolute;
+  width: 240px;
+  height: 48px;
+  left: 786px;
+  top: 408px;
+
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Pelayanan Aplikasi ================================================ */
+#pelayanan-aplikasi {
+  position: absolute;
+  width: 1440px;
+  height: 703px;
+  left: 0px;
+  top: 3875px;
+
+  background: #9af298;
+}
+
+.teks1-pelayanan-aplikasi {
+  position: absolute;
+  width: 488px;
+  height: 106px;
+  left: 111px;
+  top: 62px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+
+  color: #000000;
+}
+
+.teks2-pelayanan-aplikasi {
+  position: absolute;
+  width: 629px;
+  height: 106px;
+  left: 111px;
+  top: 188px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.teks3-pelayanan-aplikasi {
+  position: absolute;
+  width: 629px;
+  height: 106px;
+  left: 111px;
+  top: 351px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.img1-pelayanan-aplikasi {
+  position: absolute;
+  width: 57px;
+  height: 71px;
+  left: 128px;
+  top: 528px;
+}
+
+.img2-pelayanan-aplikasi {
+  position: absolute;
+  width: 236.5px;
+  height: 71px;
+  left: 227px;
+  top: 528px;
+}
+
+.img3-pelayanan-aplikasi {
+  position: absolute;
+  width: 434px;
+  height: 598px;
+  left: 917px;
+  top: 62px;
+}
+
+.tombol-pelayanan-aplikasi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  left: 111px;
+  top: 643px;
+
+  background: #254330;
+  border-radius: 8px;
+}
+
+.teks-tombol-pelayanan-aplikasi {
+  position: static;
+  width: 83px;
+  height: 24px;
+  left: 39.5px;
+  top: 11px;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
