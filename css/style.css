@@ -976,7 +976,7 @@ body {
 /* Beli Desa ============================================= */
 #beli-desa {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 757px;
   left: 0px;
   top: 2572px;
@@ -1305,7 +1305,7 @@ body {
 /* wisata Desa ============================================= */
 #wisata-desa {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 546px;
   left: 0px;
   top: 3329px;
@@ -1455,7 +1455,7 @@ body {
 /* Pelayanan Aplikasi ================================================ */
 #pelayanan-aplikasi {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 703px;
   left: 0px;
   top: 3875px;
